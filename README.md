@@ -1,5 +1,4 @@
 # Cica-Progamam
-# 🌱 [Numele ONG-ului]
 
 Site de prezentare pentru **[Numele ONG-ului]**, un ONG local dedicat [misiunea organizației].
 
