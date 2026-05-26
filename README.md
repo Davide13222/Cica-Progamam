@@ -6,7 +6,7 @@ Site de prezentare pentru ..., un ONG local dedicat [misiunea organizației].
 
 ## 👥 Echipă
 
-Acest proiect este dezvolat de o echipa Cică programăm 
+Acest proiect este dezvolat de o echipa "Cică programăm"
 
 ## 📌 Despre proiect
 
