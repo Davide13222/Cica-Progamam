@@ -1,12 +1,16 @@
-# Cica-Progamam
+# 🌱
 
-Site de prezentare pentru **[Numele ONG-ului]**, un ONG local dedicat [misiunea organizației].
+Site de prezentare pentru ..., un ONG local dedicat [misiunea organizației].
 
 ---
 
+## 👥 Echipă
+
+Acest proiect este dezvolat de o echipa Cică programăm 
+
 ## 📌 Despre proiect
 
-Acest site a fost creat pentru a prezenta activitatea, valorile și proiectele organizației **[Numele ONG-ului]**.
+Acest site a fost creat pentru a prezenta activitatea, valorile și proiectele organizației ...
 
 Vizitatorii pot afla:
 - Cine suntem
