@@ -1,22 +1,123 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina mea</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ONG Local</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <h1>Salut</h1>
-        <p>Esta este o pajina wab</p>
-    </header>
-    <main>
-        <h2>continuut princioal</h2>
-        <p>dadadadaes.</p>
-    </main>
-    <footer>
-        <p>&copy; 2026 Pagina mea</p>
-    </footer>
+     <!-- Bara de navigare  -->
+    <nav>
+        <span class="nav-logo">T.M.A.M.</span>
+        <ul class="nav-links">
+            <li><a href="#acasa">Acasă</a></li>
+            <li><a href="#despre">Despre noi</a></li>
+            <li><a href="#proiecte">Proiecte</a></li>
+            <li><a href="#echipa">Echipă</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECȚIUNEA ACASĂ -->
+     <section id="acasa" class="hero">
+        <p class="hero-subtitle">ONG Local · Brașov</p>
+        <h1>Împreună pentru o comunitate mai bună</h1>
+        <p class="hero-desc">[Misiunea voastră pe scurt — cine sunteți și pentru cine luptați.]</p>
+        <a href="#despre" class="btn">Descoperă mai mult ↓</a>
+    </section>
+
+    <!-- DESPRE NOI -->
+  <section id="despre">
+    <div class="container fade-in">
+      <div class="despre-grid">
+        <div class="despre-text">
+          <p class="section-label">Despre noi</p>
+          <h2 class="section-title">Cine suntem?</h2>
+          <p>Noi suntem: Together everyone achives more.</p>
+          <p>[Descriere organizație — misiune, valori, de cât timp activați.]</p>
+          <p>[Un al doilea paragraf despre impactul vostru în comunitate.]</p>
+        </div>
+        <div class="despre-img"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROIECTE -->
+  <section id="proiecte">
+    <div class="container fade-in">
+      <p class="section-label" style="text-align:center">Ce facem</p>
+      <h2 class="section-title" style="text-align:center">Proiectele noastre</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="icon"></div>
+          <h3>[Proiect 1]</h3>
+          <p>[Descriere scurtă a proiectului.]</p>
+        </div>
+        <div class="card accent">
+          <div class="icon"></div>
+          <h3>[Proiect 2]</h3>
+          <p>[Descriere scurtă a proiectului.]</p>
+        </div>
+        <div class="card">
+          <div class="icon"></div>
+          <h3>[Proiect 3]</h3>
+          <p>[Descriere scurtă a proiectului.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECHIPA -->
+  <section id="echipa">
+    <div class="container fade-in">
+      <p class="section-label" style="text-align:center">Oamenii din spate</p>
+      <h2 class="section-title" style="text-align:center">Echipa noastră</h2>
+      <div class="team-grid">
+        <div class="member">
+          <div class="avatar">👤</div>
+          <h3>Davide Baltatu</h3>
+          <p>Director Executiv</p>
+        </div>
+        <div class="member">
+          <div class="avatar">👤</div>
+          <h3>Rares Vasile</h3>
+          <p>Coordonator Proiecte</p>
+        </div>
+        <div class="member">
+          <div class="avatar">👤</div>
+          <h3>Andreea Popescu</h3>
+          <p>Coordonator Resurse umane</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container fade-in">
+      <p class="section-label">Hai să vorbim</p>
+      <h2 class="section-title">Contact</h2>
+      <p>[Adresă, oraș, descriere scurtă cum vă pot contacta.]</p>
+      <div class="contact-btns">
+        <a href="mailto:email@ong.ro" class="btn-white">✉️ email@ong.ro</a>
+        <a href="#" class="btn-outline">📱 Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 [Numele ONG]. Toate drepturile rezervate.
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
 </body>
 </html>
