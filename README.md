@@ -1,4 +1,4 @@
-# 🌱
+# T.M.A.M.
 
 Site de prezentare pentru ..., un ONG local dedicat [misiunea organizației].
 
