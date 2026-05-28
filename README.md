@@ -1,6 +1,6 @@
 # T.M.A.M.
 
-Site de prezentare pentru ..., un ONG local dedicat [misiunea organizației].
+Site de prezentare pentru Together everyone achives more, un ONG local dedicat [misiunea organizației].
 
 ---
 
@@ -10,12 +10,7 @@ Acest proiect este dezvolat de o echipa "Cică programăm"
 
 ## 📌 Despre proiect
 
-Acest site a fost creat pentru a prezenta activitatea, valorile și proiectele organizației ...
-
-Vizitatorii pot afla:
-- Cine suntem
-- Ce facem
-- Cum pot susține sau contacta organizația
+Acest site a fost creat pentru a prezenta activitatea, valorile și proiectele organizației Together everyone achives more.
 
 ---
 
@@ -37,23 +32,3 @@ Vizitatorii pot afla:
 ```
 
 ---
-
-## 🚀 Cum rulezi proiectul local
-
-1. Descarcă sau clonează repository-ul
-2. Deschide `index.html` în browser
-
-> Nu necesită server sau instalare suplimentară.
-
----
-
-## 📬 Contact
-
-- Email: [email@ong.ro]
-- Website: [www.ong.ro]
-
----
-
-## 📄 Licență
-
-Acest proiect este open-source sub licența [MIT / altă licență].
