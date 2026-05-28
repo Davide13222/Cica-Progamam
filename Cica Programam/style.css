@@ -84,6 +84,8 @@ nav{
     letter-spacing: 0.2rem; 
     font-size: 0.8rem; 
     margin-bottom: 1rem; 
+    line-height: 1.8; 
+    margin-bottom: 77px;
 }
 .hero-title { 
     color: #000000; 
@@ -111,7 +113,7 @@ nav{
   transition: background 0.3s;
 }
 .btn:hover { 
-    background: #2563eb; 
+    background: #7c1313; 
 }
 
 /* ===== SECTIONS ===== */
