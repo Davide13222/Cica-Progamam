@@ -63,30 +63,38 @@ nav{
 /* ===== HEADER ===== */
 #acasa {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--blue-dark) 0%, #1e3a5f 50%, var(--blue-mid) 100%);
+  background-image: url('assets/coperta.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center; 
   padding: 6rem 2rem 2rem;
-  color: var(--white);
+  color: var(--black);
 }
 .hero-subtitle { 
-    color: #93c5fd; 
+    color: #000000; 
+    background-color: rgba(13, 133, 137, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
     text-transform: uppercase; 
     letter-spacing: 0.2rem; 
     font-size: 0.8rem; 
     margin-bottom: 1rem; 
 }
 .hero-title { 
+    color: #000000; 
     font-size: clamp(3rem, 8vw, 5rem); 
     font-weight: 900; 
     line-height: 1.1; 
     margin-bottom: 1.5rem; 
 }
+
 .hero-desc { 
-    color: #bfdbfe; 
+    color: #000000; 
     font-size: 1.1rem; 
     max-width: 500px; 
     margin: 0 auto 2.5rem; 
