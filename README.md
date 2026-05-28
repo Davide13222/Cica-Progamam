@@ -25,10 +25,11 @@ Acest site a fost creat pentru a prezenta activitatea, valorile și proiectele o
 
 ```
 /
-├── index.html        # Pagina principală
-├── style.css         # Stiluri
+├── index.html              # Pagina principală
+├──proiectele_noastre.html  #pagina secundara
+├── style.css               # Stiluri
 ├── assets/
-│   └── images/       # Imagini folosite pe site
+│   └── images/             # Imagini folosite pe site
 ```
 
 ---
