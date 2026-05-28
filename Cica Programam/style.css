@@ -77,27 +77,22 @@ nav{
 }
 .hero-subtitle { 
     color: #000000; 
-    background-color: rgba(13, 133, 137, 0.5);
-    padding: 0.5rem 1rem;
-    border-radius: 999px;
     text-transform: uppercase; 
     letter-spacing: 0.2rem; 
     font-size: 0.8rem; 
     margin-bottom: 1rem; 
+    line-height: 1.8; 
+    margin-bottom: 77px;
 }
 .hero-title { 
+    background-color: rgba(13, 133, 137, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
     color: #000000; 
     font-size: clamp(3rem, 8vw, 5rem); 
     font-weight: 900; 
     line-height: 1.1; 
     margin-bottom: 1.5rem; 
-}
-
-.hero-desc { 
-    color: #000000; 
-    font-size: 1.1rem; 
-    max-width: 500px; 
-    margin: 0 auto 2.5rem; 
 }
 .btn {
   display: inline-block;
@@ -111,7 +106,7 @@ nav{
   transition: background 0.3s;
 }
 .btn:hover { 
-    background: #2563eb; 
+    background: #7c1313; 
 }
 
 /* ===== SECTIONS ===== */
