@@ -1,17 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'DM Sans', sans-serif;
   color: #1f2937;
   background: #ffffff;
-}
-
-h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
 }
 
 /* NAVBAR */
@@ -138,11 +127,10 @@ h2 {
 }
 
 .despre-img {
-  background-image: url('assets/suntem.jpeg');
-  background-size: cover;
-  background-position: center;
   border-radius: 2rem;
   height: 280px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* PROIECTE */
