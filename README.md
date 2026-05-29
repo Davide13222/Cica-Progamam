@@ -26,7 +26,7 @@ Acest site a fost creat pentru a prezenta activitatea, valorile și proiectele o
 ```
 /
 ├── index.html              # Pagina principală
-├──proiectele_noastre.html  #pagina secundara
+├──proiectele_noastre.html  # Pagina secundara
 ├── style.css               # Stiluri
 ├── assets/
 │   └── images/             # Imagini folosite pe site
